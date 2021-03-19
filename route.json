@@ -1,0 +1,10 @@
+{
+//    /img  ==>  /RECORDS
+    "/data/*": "/$1",
+//    /RECORDS/show ==> /data1/001
+//    "/:resource/:id/show": "/:resource/:id",
+//    /data1/Sherry ==> /data1?name=Sherry
+//    "/data1/:name": "/data1?name=:name",
+//    /data1?id=002 ==> /data/002 
+//    "/:anyArray\\?id=:id": "/:anyArray/:id"
+}
