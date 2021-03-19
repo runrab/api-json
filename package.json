@@ -3,6 +3,6 @@
     "json-server": "^0.16.3"
   }
   "scripts": {
-    "db": "json-server --watch db.json --port 80  --host v.bbvvdd.cn"
+    "db": "json-server --watch db.json --port 80"
   }
 }
