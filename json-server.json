@@ -1,11 +1,11 @@
 {
   "port": 80,  // 自定义服务监听端口
   "watch": true, // 服务监听
-  "host": "v.bbvvdd.cn",// 指定域
+  "host": "",// 指定域
   "static": "./public", // 静态文件目录，可以将项目的HTML,JS,IMG等资源放在这里
   "read-only": true,  // 是否只允许get请求
   "no-cors":true, // 是否允许跨域访问
   "no-gzip": false, // 是否可压缩
-  "routes": "route.json" // 自定义路由，这个配置可以暂时省略，后续会有所涉及
+  "routes": "" // 自定义路由，这个配置可以暂时省略，后续会有所涉及
 }
 
